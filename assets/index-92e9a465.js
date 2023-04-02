@@ -61,7 +61,7 @@ border-radius: 10px;
 margin-bottom: 10px;
 `,js=xe.option`
 
-`,As=(e,t)=>{const[n,r]=B.useState("");return[n,()=>he(Gs,{children:[$(Fm,{children:e}),he(Im,{value:n,onChange:i=>r(i.target.value),children:[$(js,{children:"Seleccione una opción"}),t.map(i=>$(js,{value:i.id,children:i.nombre},i.id))]})]})]},Dm=[{id:"USD",nombre:"Dolar de Estadounidense"},{id:"EUR",nombre:"Euro"},{id:"GBP",nombre:"Libra Esterlina"},{id:"PEN",nombre:"Sol Peruano"},{id:"CLP",nombre:"Peso Chileno"},{id:"MXN",nombre:"Peso Mexicano"}],jm=xe.input`
+`,As=(e,t)=>{const[n,r]=B.useState("");return[n,()=>he(Gs,{children:[$(Fm,{children:e}),he(Im,{value:n,onChange:i=>r(i.target.value),children:[$(js,{children:"Seleccione una opción"}),t.map(i=>$(js,{value:i.id,children:i.nombre},i.id))]})]})]},Dm=[{id:"USD",nombre:"Dolar Estadounidense"},{id:"EUR",nombre:"Euro"},{id:"GBP",nombre:"Libra Esterlina"},{id:"PEN",nombre:"Sol Peruano"},{id:"CLP",nombre:"Peso Chileno"},{id:"MXN",nombre:"Peso Mexicano"}],jm=xe.input`
 background-color: #07CB15;
 border: none;
 width: 100%;
